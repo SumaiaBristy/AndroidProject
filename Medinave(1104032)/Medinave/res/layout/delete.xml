@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+      android:background="@drawable/bac1"
+      
+     >
+
+    <LinearLayout
+        
+        android:layout_weight="0.35"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:weightSum="4"
+        
+         >
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+              android:layout_weight="1"
+              android:layout_margin="5dp"
+              android:orientation="vertical"
+            
+            >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sms1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set sms"
+                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+              android:layout_weight="1"
+              android:layout_margin="5dp"
+              android:orientation="vertical"
+            
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set number"
+                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+              android:layout_weight="1"
+              android:layout_margin="5dp"
+              android:orientation="vertical"
+             
+            >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/del" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Delete"
+              
+                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" 
+              android:layout_weight="1"
+              android:layout_margin="5dp"
+              android:orientation="vertical"
+            
+            >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show list"
+                android:textSize="12dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.65"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+         >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shk" />
+
+    </LinearLayout>
+
+</LinearLayout>
