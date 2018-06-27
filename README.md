@@ -1,5 +1,5 @@
 # AndroidProject
-<<<<<<<<dowload the apk and install it to get app preview>>>>>>>>
+-----------dowload the apk and install it to get app preview----------
 
 Project  Name:Medinave.
 Features:
