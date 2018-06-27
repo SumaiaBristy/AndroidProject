@@ -1,4 +1,5 @@
 # AndroidProject
+***dowload the apk and install it to get app preview***
 An android project for medical purposes. This app is
 mainly developed for Chittagong. We can keep track
 of distance, location in map, contact number of
